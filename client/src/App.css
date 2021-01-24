@@ -1,0 +1,151 @@
+tbody tr:hover {
+    background: #f5f5f5;
+}
+
+.footer {
+    text-align: center;
+    /* margin-top: 60vh; */
+    background-color: #c55a11;
+    padding: 2em;
+    color: white;
+
+}
+
+.linkStyle {
+    color: #fff;
+    text-decoration: none;
+}
+
+.linkStyle:active {
+    color: #fff;
+}
+
+.linkStyle:hover {
+    color: #fff;
+}
+
+.linkStyleBlack {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.linkStyleBlack:hover {
+    color: black;
+}
+
+body {
+    background-color: #faf0e6;
+    font-family: 'Poppins', sans-serif;
+}
+
+.secondaryColor {
+    background-color: #f8cbad;
+}
+
+.mainColor {
+    background-color: #c55a11;
+}
+
+.mainColorText {
+    color: #c55a11;
+}
+
+.imgBanner {
+    width: 100%;
+    object-fit: cover;
+    height:100%
+}
+
+.header {
+    text-align: center;
+    padding: 2em 0 ;
+    color: #c55a11;
+    font-weight: bold;
+}
+
+
+
+
+.btn {
+    background-color: #c55a11;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    background-color:  #f8cbad;
+}
+
+
+
+.material-icons {
+    vertical-align: middle; /*Change this to adjust the icon*/
+    cursor: pointer;
+}
+
+.center img {
+    width:auto;
+}
+
+
+.parent {
+    position: relative;
+}
+
+.childRight {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+
+}
+
+.childLeft {
+    position: absolute;
+    bottom: 0.5em;
+    right: 2em;
+
+}
+
+.topRightChild {
+    position: absolute;
+    top: 0.5em;
+    right: 0.5em;
+}
+
+
+tr,td, tbody th  {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #c55a11;
+    color: white;
+}
+
+
+
+ul {
+    text-align: left;
+    display: inline-block;
+}
+
+.recipe img {
+    width: 150px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.tabs {
+    cursor: pointer;
+    color: white;
+    background-color: #c55a11;
+    margin-right: 0.5em;    
+}
+
+.logo {
+    transform: rotate(-40deg)
+}
+
+    
