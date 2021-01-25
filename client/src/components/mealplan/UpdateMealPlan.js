@@ -278,7 +278,7 @@ class UpdateMealPlan extends Component {
                                         <td><Input type="textarea" name="thursdayBreakfast" id="thursdayBreakfast" onChange={this.onChange} value={this.state.thursdayBreakfast}/></td>
                                         <td><Input type="textarea" name="thursdayLunch" id="thursdayLunch" onChange={this.onChange} value={this.state.thursdayLunch}/></td>
                                         <td><Input type="textarea" name="thursdayDinner" id="thursdayDinner" onChange={this.onChange} value={this.state.thursdayDinner}/></td>
-                                        <td><Input type="textarea" name="thursdaySnacks" id="thursdaySnacks" onChange={this.onChange} value={this.state.wednesdaySnacks}/></td>
+                                        <td><Input type="textarea" name="thursdaySnacks" id="thursdaySnacks" onChange={this.onChange} value={this.state.thursdaySnacks}/></td>
                                     </tr>
                                     <tr>
                                         <th>Friday <br></br> {this.props.getWeekdayDate(this.state.week,5)} </th>
@@ -301,7 +301,7 @@ class UpdateMealPlan extends Component {
                                 block
                                 onClick={() => (this.setState({button: "edit"}))}
                                 type="submit"
-                                >Edit</Button>
+                                >Update</Button>
                             <Button
                                 block
                                 onClick={() => (this.setState({button: "delete"}))}
